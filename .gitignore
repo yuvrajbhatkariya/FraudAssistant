@@ -1,20 +1,38 @@
+# --------------------
 # Python
+# --------------------
 __pycache__/
 *.pyc
 *.pyo
+*.pyd
 
-# Virtual environments
-venv/
+# --------------------
+# Virtual Environments
+# --------------------
 .venv/
+venv/
 env/
 
-# VS Code
+# --------------------
+# IDE / Editor
+# --------------------
 .vscode/
+.idea/
 
-# OS
+# --------------------
+# OS files
+# --------------------
 .DS_Store
+Thumbs.db
 
+# --------------------
+# ML / ASR Libraries
+# --------------------
 NeMo/
-
-
 vosk-model-small-en-us-0.15/
+
+# --------------------
+# Logs & temp
+# --------------------
+*.log
+*.tmp
