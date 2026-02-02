@@ -31,8 +31,15 @@ Thumbs.db
 NeMo/
 vosk-model-small-en-us-0.15/
 
+
 # --------------------
 # Logs & temp
 # --------------------
 *.log
 *.tmp
+
+
+# ASR / ML models (large files)
+models/
+*.onnx
+*.tar.bz2
